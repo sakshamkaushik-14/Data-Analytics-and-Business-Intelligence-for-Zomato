@@ -1,4 +1,4 @@
-# Data-Analytics-and-Business-Intelligence-for-Zomato
+# Data Analytics and Business Intelligence for Zomato
 
 ## Project Overview
 
