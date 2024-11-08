@@ -10,7 +10,7 @@ SELECT * FROM users ORDER BY rand() LIMIT 5;
 -- Q4. Find null values
 SELECT * FROM orders WHERE restaurant_rating IS NULL;
 
--- Q5. Find orders placed by each customer
+-- Q5. Find the number of orders placed by each customer
 SELECT t2.name, COUNT(*) AS '#orders' 
 FROM orders t1
 JOIN users t2 ON t1.user_id = t2.user_id
